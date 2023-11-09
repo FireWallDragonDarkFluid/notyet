@@ -102,10 +102,6 @@ p{
   background-color: #2AC3C3;
 }
 
-.bg-light-orange{
-  background-color: #EA9C55;
-}
-
 .date{
   font-size:14px;
   color: #A7A7A7;
@@ -128,6 +124,83 @@ p{
   max-width: 1200px;
 }
 
-/* .search-title {
+.venueCard {
+  background-color: #bde8ec;
+  transition: .3s ease;
+  cursor: pointer;
+}
 
-} */
+.venueCard-status {
+  right: -12px;
+  top: -12px;
+  z-index: 10;
+}
+
+.venueCard-status-open {
+  border-radius: 4px;
+}
+
+.venueCard .icon-people {
+  width: 16px;
+  height: 18px;
+}
+
+.me-2 {
+  margin-right: 0.5rem!important;
+}
+
+.px-6 {
+  padding-right: 1.25rem!important;
+  padding-left: 1.25rem!important;
+}
+
+.search_page_venueCard {
+  margin-bottom: 54px;
+}
+
+.pager .pager-item {
+  width: 36px;
+  height: 36px;
+  color: #fff;
+  background-color: #24b4c1;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+@media (min-width: 576px){
+  .me-sm-6 {
+      margin-right: 1.25rem!important;
+  }
+}
+
+.bg-secondary{
+  background-color: rgb(239,144,2) !important;
+}
+
+.rounded-2 {
+  border-radius: 1rem!important;
+}
+
+.rounded-5{
+  border-radius: 2.5rem!important;
+}
+
+.fs-5 {
+  font-size: 1.25rem!important;
+}
+
+.text-secondary {
+  color: rgb(239,144,2) !important;
+}
+
+.fs-4 {
+  font-size: calc(1.275rem + .3vw)!important;
+}
+
+.text-cyan{
+  color:rgb(36, 180, 193);
+}
+
