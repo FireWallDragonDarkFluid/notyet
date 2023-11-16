@@ -4299,6 +4299,9 @@ a.bg-success:hover, a.bg-success:focus,
 button.bg-success:hover,
 button.bg-success:focus {
   background-color: #1e7e34 !important; }
+  
+.bg-table {
+  background-color: #aee7f0 !important; }
 
 .bg-info {
   background-color: #17a2b8 !important; }
@@ -4373,6 +4376,9 @@ button.bg-dark:focus {
 .border-bottom-0 {
   border-bottom: 0 !important; }
 
+.border-bottom-3 {
+  border-bottom: 3px solid #dee2e6 !important; }
+
 .border-left-0 {
   border-left: 0 !important; }
 
@@ -4413,6 +4419,12 @@ button.bg-dark:focus {
 .rounded-right {
   border-top-right-radius: 0.25rem !important;
   border-bottom-right-radius: 0.25rem !important; }
+
+.rounded-top-left {
+  border-top-left-radius: 2.5rem !important; }
+
+.rounded-top-right {
+  border-top-right-radius: 2.5rem !important; }
 
 .rounded-bottom {
   border-bottom-right-radius: 0.25rem !important;
@@ -5248,7 +5260,10 @@ button.bg-dark:focus {
 
 .shadow-none {
   box-shadow: none !important; }
-
+  
+.w-15 {
+  width: 15% !important; }
+  
 .w-25 {
   width: 25% !important; }
 

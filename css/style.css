@@ -124,6 +124,10 @@ p{
   max-width: 1200px;
 }
 
+.subtle {
+  cursor: pointer;
+}
+
 .venueCard {
   background-color: #bde8ec;
   transition: .3s ease;
